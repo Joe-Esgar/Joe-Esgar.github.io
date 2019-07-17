@@ -1,0 +1,79 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background: url("./styles/background.jpeg") no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Literata", serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+a:hover {
+  color: white;
+}
+
+img:hover {
+  border: solid orange;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.head {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.technical {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.experience {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.education {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  width: 60%;
+  margin-left: 50px;
+}
+
+.headshot {
+  border-radius: 50%;
+}
+
+.style {
+  font-family: "Lobster", cursive;
+}
+
+/* 
+font-family: 'Literata', serif;
+font-family: 'Lobster', cursive; */
