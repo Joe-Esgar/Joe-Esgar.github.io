@@ -27,6 +27,7 @@ img:hover {
 header {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 100%;
   margin-bottom: 50px;
 }
@@ -77,3 +78,6 @@ header {
 /* 
 font-family: 'Literata', serif;
 font-family: 'Lobster', cursive; */
+
+@media screen and (max-width: 513px) {
+}
