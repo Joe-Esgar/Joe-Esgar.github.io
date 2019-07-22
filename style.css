@@ -80,4 +80,15 @@ font-family: 'Literata', serif;
 font-family: 'Lobster', cursive; */
 
 @media screen and (max-width: 513px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .headshot {
+    width: 50%;
+  }
 }
