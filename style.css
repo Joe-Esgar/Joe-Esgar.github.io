@@ -1,6 +1,4 @@
 body {
-  width: 100vw;
-  height: 100vh;
   color: white;
   background: url("./styles/background.jpeg") no-repeat fixed;
   -webkit-background-size: cover;
