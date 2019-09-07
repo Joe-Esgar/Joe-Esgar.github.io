@@ -1,10 +1,10 @@
 body {
   color: white;
   background: url("./styles/background.jpeg") no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: center;
+  -moz-background-size: center;
+  -o-background-size: center;
+  background-size: center;
   font-family: "Literata", serif;
   font-size: 16px;
 }
